@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f6f880;
+    margin: 0;
+  }
+  
+  
+  .container {
+    text-align: center;
+  }
+  
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: repeat(8, 50px);
+    gap: 2px;
+    margin: 20px auto;
+  }
+  
+  
+  .cell {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(87, 114, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .disc {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  
+  .disc.black {
+    background-color: rgb(226, 174, 174);
+  }
+  
+  
+  .disc.white {
+    background-color: rgb(153, 247, 250);
+  }
+  
+  
+  
+  
+  
